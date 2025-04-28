@@ -1,0 +1,191 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e0e0e0;
+    /* Slightly darker grey for a more refined look */
+    color: #333;
+}
+
+body.dark-mode {
+    background-color: #333;
+    color: #f0f0f0;
+}
+
+header {
+    background-color: #8B0000;
+    /* Dark red, resembling wine */
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+main {
+    padding: 2rem;
+}
+
+button {
+    background-color: #8B0000;
+    /* Dark red, resembling wine */
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+button:hover {
+    background-color: #A52A2A;
+    /* Brownish red, resembling spices */
+}
+
+button.dark-mode {
+    background-color: #555;
+    color: #fff;
+}
+
+#main_courses ul {
+    list-style-type: none;
+    margin-left: 1rem;
+    padding-left: 0;
+    /* Apply consistent no-indent style */
+}
+
+.ingredients-list li::before {
+    content: "- ";
+    color: #333;
+}
+
+.steps-list li::before {
+    content: none;
+}
+
+a {
+    color: #0000ff;
+    /* Bright blue for normal mode */
+}
+
+a:visited {
+    color: #4169e1;
+    /* Royal blue for visited links in normal mode */
+}
+
+body.dark-mode a {
+    color: white;
+    /* White links for better contrast in dark mode */
+}
+
+body.dark-mode a:visited {
+    color: #d3d3d3;
+    /* Light grey for visited links in dark mode */
+}
+
+footer {
+    text-align: center;
+    padding: 0.2rem;
+    background-color: #f8f8f8;
+    border-top: 1px solid #ddd;
+    font-size: 0.9rem;
+}
+
+body.dark-mode footer {
+    background-color: #444;
+    color: #f0f0f0;
+    border-top: none;
+    /* Remove the white line above the footer in dark mode */
+}
+
+section {
+    margin: 1rem 0;
+    /* Ensure consistent vertical spacing */
+    padding: 0;
+    /* Remove extra padding */
+}
+
+section ul {
+    list-style-type: none;
+    margin-left: 1rem;
+    /* Apply consistent indent transcending course type */
+    padding-left: 0;
+}
+
+#search-container {
+    display: flex;
+    justify-content: center;
+    margin: 1rem 0;
+}
+
+#search-input {
+    width: 60%;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#search-button {
+    padding: 0.5rem 1rem;
+    margin-left: 0.5rem;
+    background-color: #8B0000;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#search-button:hover {
+    background-color: #A52A2A;
+}
+
+
+/* Commented out styles for the translation container */
+
+
+/*
+#translation-container {
+    display: flex;
+    justify-content: center;
+    margin: 1rem 0;
+}
+
+#language-select {
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 0.5rem;
+}
+
+#translate-button {
+    padding: 0.5rem 1rem;
+    background-color: #8B0000;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#translate-button:hover {
+    background-color: #A52A2A;
+}
+*/
+
+@media (max-width: 768px) {
+    header {
+        text-align: center;
+        padding: 0.5rem;
+    }
+    main {
+        padding: 1rem;
+    }
+    section ul {
+        margin-left: 0;
+        padding-left: 0;
+    }
+    button {
+        width: 100%;
+        padding: 0.5rem;
+    }
+    footer {
+        font-size: 0.8rem;
+    }
+}

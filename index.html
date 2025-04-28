@@ -1,1 +1,90 @@
-Hello world
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Italian Recipes</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>My Recipes</h1>
+        <button id="dark-mode-toggle">Toggle Dark Mode</button>
+    </header>
+    <main>
+        <div id="search-container">
+            <input type="text" id="search-input" placeholder="Search recipes...">
+            <button id="search-button">Search</button>
+        </div>
+        <!-- Commented out translation container -->
+        <!--
+        <div id="translation-container">
+            <select id="language-select">
+                <option value="en">English</option>
+                <option value="it">Italian</option>
+            </select>
+            <button id="translate-button">Translate</button>
+        </div>
+        -->
+        <section id="recipe-list">
+            <h2>Main Courses</h2>
+            <ul id="recipes">
+                <!-- Recipe links will be dynamically added here -->
+            </ul>
+        </section>
+        <section id="appetizers-list">
+            <h2>Appetizers</h2>
+            <ul id="appetizers">
+                <!-- Appetizer links will be dynamically added here -->
+            </ul>
+        </section>
+        <section id="soups-list">
+            <h2>Soups</h2>
+            <ul id="soups">
+                <!-- Soup links will be dynamically added here -->
+            </ul>
+        </section>
+        <section id="salads-list">
+            <h2>Salads</h2>
+            <ul id="salads">
+                <!-- Salad links will be dynamically added here -->
+            </ul>
+        </section>
+        <section id="sides-list">
+            <h2>Sides</h2>
+            <ul id="sides">
+                <!-- Side links will be dynamically added here -->
+            </ul>
+        </section>
+        <section id="desserts-list">
+            <h2>Desserts</h2>
+            <ul id="desserts">
+                <!-- Dessert links will be dynamically added here -->
+            </ul>
+        </section>
+        <section id="beverages-list">
+            <h2>Beverages</h2>
+            <ul id="beverages">
+                <!-- Beverage links will be dynamically added here -->
+            </ul>
+        </section>
+        <section id="recipe-details" style="display: none;">
+            <button id="back-button">Back to Recipes</button>
+            <h2 id="recipe-name"></h2>
+            <p><strong>Ingredients:</strong></p>
+            <ul id="recipe-ingredients"></ul>
+            <p><strong>Steps:</strong></p>
+            <ol id="recipe-steps"></ol>
+        </section>
+    </main>
+    <footer>
+        <p>Created by Marco Mamprin</p>
+        <p>Copyright © 2025</p>
+        <p>Explore authentic Italian recipes and culinary traditions.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>

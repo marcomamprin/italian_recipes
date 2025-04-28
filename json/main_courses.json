@@ -1,0 +1,88 @@
+{
+    "recipes": [{
+            "name": "Pasta with Mushrooms and Cream",
+            "ingredients": [
+                "Mushrooms",
+                "Leek (sliced)",
+                "Olive oil",
+                "Garlic (chopped)",
+                "Chicken bouillon cube",
+                "Heavy cream",
+                "Lasagna sheets (pre-cooked slightly)",
+                "Tarragon"
+            ],
+            "steps": [
+                "Heat olive oil in a pan. Add chopped garlic and sliced leeks, sauté until soft.",
+                "Add mushrooms and cook until they release their moisture and start to brown.",
+                "Add a crumbled chicken bouillon cube and stir.",
+                "Pour in heavy cream and cook over low heat to form a creamy sauce.",
+                "Partially cook lasagna sheets in boiling water, then drain them slightly undercooked.",
+                "Add the lasagna sheets to the pan with the mushroom sauce and finish cooking gently over low heat.",
+                "Add fresh tarragon, stir well, and serve."
+            ]
+        },
+        {
+            "name": "Farfalle with Ricotta, Pancetta, and Peas",
+            "ingredients": [
+                "Pancetta (diced)",
+                "Garlic (chopped)",
+                "Farfalle pasta",
+                "Peas",
+                "Crème fraîche",
+                "Ricotta cheese",
+                "Salt and pepper"
+            ],
+            "steps": [
+                "Bring a large pot of salted water to a boil. Add farfalle pasta.",
+                "A few minutes before the pasta is ready, add peas to the boiling water.",
+                "Meanwhile, in a pan, sauté pancetta and garlic until pancetta is crisp.",
+                "Drain pasta and peas, reserving a little cooking water.",
+                "Mix pasta and peas with pancetta, adding crème fraîche and ricotta cheese.",
+                "Adjust seasoning with salt and pepper.",
+                "If needed, loosen the sauce with a bit of reserved pasta water. Serve warm."
+            ]
+        },
+        {
+            "name": "Tagliatelle with Sausage and Cherry Tomatoes",
+            "ingredients": [
+                "Olive oil",
+                "Onion (chopped)",
+                "Garlic (chopped)",
+                "Sausages (casings removed, crumbled)",
+                "Cherry tomatoes (halved)",
+                "Pasta cooking water",
+                "Parmesan cheese (grated)"
+            ],
+            "steps": [
+                "In a large pan, heat olive oil and sauté chopped onion and garlic until translucent.",
+                "Add crumbled sausage and cook until browned.",
+                "Add halved cherry tomatoes and cook until they soften.",
+                "Boil tagliatelle in salted water until al dente.",
+                "Reserve some pasta water, then drain the tagliatelle.",
+                "Toss the tagliatelle into the pan with the sausage and tomatoes, adding some pasta water to make a light sauce.",
+                "Sprinkle generously with grated Parmesan cheese before serving."
+            ]
+        },
+        {
+            "name": "Spaghetti with Chili, Sardines, and Breadcrumbs",
+            "ingredients": [
+                "Olive oil",
+                "Garlic (chopped)",
+                "Breadcrumbs",
+                "Chili pepper (chopped or crushed)",
+                "Sardines (drained and broken into small pieces)",
+                "Oregano",
+                "Arugula",
+                "Salt and pepper"
+            ],
+            "steps": [
+                "In a pan, heat olive oil and sauté garlic. Add breadcrumbs and toast them until golden. Set aside on kitchen paper to drain.",
+                "In the same pan, add more olive oil if needed and sauté garlic and chili pepper until fragrant.",
+                "Add the sardines and cook briefly, breaking them into smaller pieces.",
+                "Season with salt, pepper, and oregano.",
+                "Boil spaghetti until al dente, then drain and toss with the sardine sauce.",
+                "Top with arugula and the toasted breadcrumbs before serving."
+            ]
+        }
+    ]
+}
