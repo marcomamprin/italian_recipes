@@ -5,6 +5,6 @@ This repository contains a collection of Italian recipes categorized by courses,
 ---
 
 **Website Information:**
-- Created by Marco
+- Created by Marco Mamprin
 - Copyright © 2025
 - Explore authentic Italian recipes and culinary traditions.
