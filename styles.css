@@ -56,16 +56,20 @@ button:hover {
     border-radius: 0;
 }
 
-
-/* Update the CSS to target only the ingredients list */
+#recipe-list ul,
+#appetizers-list ul,
+#soups-list ul,
+#salads-list ul,
+#sides-list ul,
+#desserts-list ul,
+#beverages-list ul {
+    list-style-type: none;
+}
 
 .ingredients-list li::before {
     content: "- ";
     color: #333;
 }
-
-
-/* Ensure no prefix is applied to the steps list */
 
 .steps-list li::before {
     content: none;
