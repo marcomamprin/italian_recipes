@@ -15,6 +15,20 @@ document.addEventListener('DOMContentLoaded', () => {
     const recipeIngredients = document.getElementById('recipe-ingredients');
     const recipeSteps = document.getElementById('recipe-steps');
 
+    const darkModeToggle = document.getElementById('dark-mode-toggle');
+    const isDarkMode = localStorage.getItem('darkMode') === 'true';
+
+    if (isDarkMode) {
+        document.body.classList.add('dark-mode');
+        darkModeToggle.classList.add('dark-mode');
+    }
+
+    darkModeToggle.addEventListener('click', () => {
+        document.body.classList.toggle('dark-mode');
+        darkModeToggle.classList.toggle('dark-mode');
+        localStorage.setItem('darkMode', document.body.classList.contains('dark-mode'));
+    });
+
     sections.forEach(section => {
         const listElement = document.getElementById(section.id);
         const sectionElement = listElement.closest('section');
@@ -68,6 +82,6 @@ document.addEventListener('DOMContentLoaded', () => {
         recipeDetails.style.display = 'block';
         recipeName.textContent = recipe.name;
         recipeIngredients.innerHTML = recipe.ingredients.map(ingredient => `<li>${ingredient}</li>`).join('');
-        recipeSteps.innerHTML = recipe.steps.map((step, index) => `<li>${index + 1}. ${step}</li>`).join('');
+        recipeSteps.innerHTML = recipe.steps.map(step => `<li>${step}</li>`).join(''); // Ensure no extra numbering
     }
 });

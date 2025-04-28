@@ -1,3 +1,24 @@
 {
-    "recipes": []
+    "recipes": [{
+        "name": "Strawberry, Goat Cheese, and Onion Salad",
+        "ingredients": [
+            "Fresh strawberries (hulled and halved)",
+            "Goat cheese (crumbled)",
+            "Red onion (thinly sliced)",
+            "Mixed salad greens (e.g., arugula, spinach, or mesclun)",
+            "Balsamic vinegar",
+            "Olive oil",
+            "Honey",
+            "Salt and pepper",
+            "Pecans or walnuts (optional, toasted)"
+        ],
+        "steps": [
+            "In a large bowl, combine mixed salad greens, halved strawberries, and thinly sliced red onion.",
+            "In a small bowl, whisk together balsamic vinegar, olive oil, honey, salt, and pepper to create the dressing.",
+            "Drizzle the dressing over the salad and toss gently to coat.",
+            "Sprinkle crumbled goat cheese over the top.",
+            "If using, add toasted pecans or walnuts for extra crunch.",
+            "Serve immediately."
+        ]
+    }]
 }
