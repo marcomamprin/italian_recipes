@@ -2,20 +2,25 @@
     "recipes": [{
         "name": "Tiramisu",
         "ingredients": [
-            "Mascarpone cheese",
-            "Eggs",
-            "Sugar",
-            "Ladyfingers",
-            "Espresso coffee",
-            "Cocoa powder"
+            "6 large egg yolks",
+            "150 gr granulated sugar",
+            "250 gr mascarpone cheese",
+            "400 ml heavy whipping cream",
+            "2 packages ladyfingers (approximately 400 gr total)",
+            "350 ml strong brewed espresso or coffee, cooled",
+            "80 ml coffee-flavored liqueur (e.g., Kahlúa) or dark rum (optional)",
+            "Unsweetened cocoa powder, for dusting",
+            "30 gr semisweet chocolate, grated (optional)"
         ],
         "steps": [
-            "Prepare espresso coffee and let it cool.",
-            "Beat egg yolks with sugar until creamy, then mix in mascarpone cheese.",
-            "Dip ladyfingers in coffee and layer them in a dish.",
-            "Spread the mascarpone mixture over the ladyfingers.",
-            "Repeat layers and finish with a dusting of cocoa powder.",
-            "Refrigerate for a few hours before serving."
+            "In a medium saucepan, whisk together the egg yolks and sugar over medium heat until the mixture is thick and pale. Remove from heat and allow to cool.",
+            "In a large bowl, combine mascarpone cheese with the cooled egg yolk mixture until smooth.",
+            "In a separate bowl, whip the heavy cream to stiff peaks. Gently fold the whipped cream into the mascarpone mixture until well combined.",
+            "In a shallow dish, combine the cooled espresso or coffee with the coffee-flavored liqueur or rum, if using.",
+            "Quickly dip each ladyfinger into the coffee mixture, ensuring they are soaked but not soggy. Arrange a layer of soaked ladyfingers in the bottom of a 20x30 cm dish.",
+            "Spread half of the mascarpone mixture over the ladyfingers. Repeat the process with another layer of soaked ladyfingers and the remaining mascarpone mixture.",
+            "Cover and refrigerate the tiramisu for at least 4 hours, preferably overnight, to allow the flavors to meld.",
+            "Before serving, dust the top with unsweetened cocoa powder and sprinkle with grated semisweet chocolate, if desired."
         ]
     }]
 }

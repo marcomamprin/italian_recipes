@@ -29,6 +29,47 @@ document.addEventListener('DOMContentLoaded', () => {
         localStorage.setItem('darkMode', document.body.classList.contains('dark-mode'));
     });
 
+    const searchInput = document.getElementById('search-input');
+    const searchButton = document.getElementById('search-button');
+
+    searchInput.addEventListener('input', () => {
+        const query = searchInput.value.toLowerCase();
+        sections.forEach(section => {
+            const listElement = document.getElementById(section.id);
+            const recipes = listElement.querySelectorAll('li');
+
+            recipes.forEach(recipe => {
+                const recipeName = recipe.textContent.toLowerCase();
+                const recipeIngredients = recipe.dataset.ingredients ? recipe.dataset.ingredients.toLowerCase() : '';
+
+                if (recipeName.includes(query) || recipeIngredients.includes(query)) {
+                    recipe.style.display = 'list-item';
+                } else {
+                    recipe.style.display = 'none';
+                }
+            });
+        });
+    });
+
+    searchButton.addEventListener('click', () => {
+        const query = searchInput.value.toLowerCase();
+        sections.forEach(section => {
+            const listElement = document.getElementById(section.id);
+            const recipes = listElement.querySelectorAll('li');
+
+            recipes.forEach(recipe => {
+                const recipeName = recipe.textContent.toLowerCase();
+                const recipeIngredients = recipe.dataset.ingredients ? recipe.dataset.ingredients.toLowerCase() : '';
+
+                if (recipeName.includes(query) || recipeIngredients.includes(query)) {
+                    recipe.style.display = 'list-item';
+                } else {
+                    recipe.style.display = 'none';
+                }
+            });
+        });
+    });
+
     sections.forEach(section => {
         const listElement = document.getElementById(section.id);
         const sectionElement = listElement.closest('section');
@@ -52,6 +93,7 @@ document.addEventListener('DOMContentLoaded', () => {
                             showRecipeDetails(recipe);
                         });
                         recipeItem.appendChild(recipeLink);
+                        recipeItem.dataset.ingredients = recipe.ingredients.join(',');
                         listElement.appendChild(recipeItem);
                     });
                 }
@@ -84,4 +126,14 @@ document.addEventListener('DOMContentLoaded', () => {
         recipeIngredients.innerHTML = recipe.ingredients.map(ingredient => `<li>${ingredient}</li>`).join('');
         recipeSteps.innerHTML = recipe.steps.map(step => `<li>${step}</li>`).join(''); // Ensure no extra numbering
     }
+
+    // Commented out translation functionality
+    // const translationContainer = document.getElementById('translation-container');
+    // const languageSelect = document.getElementById('language-select');
+    // const translateButton = document.getElementById('translate-button');
+
+    // translateButton.addEventListener('click', () => {
+    //     const selectedLanguage = languageSelect.value;
+    //     console.log(`Translation to ${selectedLanguage} is currently inactive.`);
+    // });
 });
