@@ -255,8 +255,8 @@ section h2 {
         align-items: center;
     }
     .recipe-item img {
-        margin-left: 0;
-        margin-bottom: 0.5rem;
+        margin: 0 auto 0.5rem auto;
+        display: block;
     }
     #recipe-additional-details img {
         margin: 10px auto;
