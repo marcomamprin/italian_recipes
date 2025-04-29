@@ -202,21 +202,19 @@ section h2 {
     display: flex;
     flex-direction: column;
     align-items: center;
+    /* Ensures all child elements, including the image, are centered */
+    justify-content: center;
+    /* Centers content vertically if needed */
     margin-bottom: 1rem;
 }
 
 .recipe-item img {
     max-width: 100px;
     margin: 0 auto 0.5rem auto;
+    /* Ensures the image is centered */
     display: block;
     border-radius: 4px;
     object-fit: cover;
-}
-
-.recipe-item a {
-    text-align: center;
-    display: block;
-    width: 100%;
 }
 
 #recipe-additional-details img {
@@ -251,12 +249,12 @@ section h2 {
         padding: 0.5rem;
     }
     .recipe-item {
-        flex-direction: column;
         align-items: center;
+        /* Reapply centering for smaller screens */
     }
     .recipe-item img {
         margin: 0 auto 0.5rem auto;
-        display: block;
+        /* Ensure centering on smartphones */
     }
     #recipe-additional-details img {
         margin: 10px auto;
