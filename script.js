@@ -81,7 +81,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 const recipeData = {
                     name: recipe.textContent,
                     ingredients: recipe.dataset.ingredients ? recipe.dataset.ingredients.split(',') : [],
-                    steps: recipe.dataset.steps ? recipe.dataset.steps.split(',') : []
+                    steps: recipe.dataset.steps ? recipe.dataset.steps.split(',') : [] // Ensure steps are retrieved
                 };
                 allRecipes.push(recipeData);
             });
@@ -120,6 +120,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         });
                         recipeItem.appendChild(recipeLink);
                         recipeItem.dataset.ingredients = recipe.ingredients.join(',');
+                        recipeItem.dataset.steps = recipe.steps.join(','); // Ensure steps are set
                         listElement.appendChild(recipeItem);
                     });
                 }
