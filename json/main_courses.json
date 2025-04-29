@@ -1,15 +1,15 @@
 {
     "recipes": [{
-            "name": "Pasta with Mushrooms and Cream",
+            "name": "Pasta with Mushrooms and Cream (Pasta ai Funghi e Panna)",
             "ingredients": [
-                "Mushrooms",
-                "Leek (sliced)",
-                "Olive oil",
-                "Garlic (chopped)",
-                "Chicken bouillon cube",
-                "Heavy cream",
-                "Lasagna sheets (pre-cooked slightly)",
-                "Tarragon"
+                "200 gr mushrooms",
+                "50 gr leek (sliced)",
+                "30 ml olive oil",
+                "1 clove garlic (chopped)",
+                "1 chicken bouillon cube",
+                "100 ml heavy cream",
+                "200 gr lasagna sheets (pre-cooked slightly)",
+                "5 gr tarragon"
             ],
             "steps": [
                 "Heat olive oil in a pan. Add chopped garlic and sliced leeks, sauté until soft.",
@@ -20,24 +20,22 @@
                 "Add the lasagna sheets to the pan with the mushroom sauce and finish cooking gently over low heat.",
                 "Add fresh tarragon, stir well, and serve."
             ],
-            "link": {
-                "picture": "photos/pasta_with_mushrooms_and_cream.jpg",
-                "author": "Marco Mamprin",
-                "notes": "A creamy and flavorful dish perfect for mushroom lovers.",
-                "wine": "Pair with a Chardonnay or Pinot Noir.",
-                "nutritional_infos": "Calories: 450 per serving, Protein: 12g, Fat: 25g, Carbs: 40g"
-            }
+            "link_picture": ["photos/pasta_with_mushrooms_and_cream.jpg"],
+            "author": ["Marco Mamprin"],
+            "notes": ["A creamy and flavorful dish perfect for mushroom lovers."],
+            "wine": ["Pair with a Chardonnay or Pinot Noir."],
+            "nutritional_infos": ["Calories: 450 per serving, Protein: 12g, Fat: 25g, Carbs: 40g"]
         },
         {
-            "name": "Farfalle with Ricotta, Pancetta, and Peas",
+            "name": "Farfalle with Ricotta, Pancetta, and Peas (Farfalle con Ricotta, Pancetta e Piselli)",
             "ingredients": [
-                "Pancetta (diced)",
-                "Garlic (chopped)",
-                "Farfalle pasta",
-                "Peas",
-                "Crème fraîche",
-                "Ricotta cheese",
-                "Salt and pepper"
+                "100 gr pancetta (diced)",
+                "1 clove garlic (chopped)",
+                "200 gr farfalle pasta",
+                "100 gr peas",
+                "50 ml crème fraîche",
+                "100 gr ricotta cheese",
+                "Salt and pepper to taste"
             ],
             "steps": [
                 "Bring a large pot of salted water to a boil. Add farfalle pasta.",
@@ -48,24 +46,22 @@
                 "Adjust seasoning with salt and pepper.",
                 "If needed, loosen the sauce with a bit of reserved pasta water. Serve warm."
             ],
-            "link": {
-                "picture": "",
-                "author": "",
-                "notes": "",
-                "wine": "",
-                "nutritional_infos": ""
-            }
+            "link_picture": [""],
+            "author": ["Marco Mamprin"],
+            "notes": ["A creamy and savory pasta dish with a hint of sweetness from peas."],
+            "wine": ["Pair with a Pinot Grigio."],
+            "nutritional_infos": ["Calories: 400 per serving, Protein: 15g, Fat: 20g, Carbs: 35g"]
         },
         {
-            "name": "Tagliatelle with Sausage and Cherry Tomatoes",
+            "name": "Tagliatelle with Sausage and Cherry Tomatoes (Tagliatelle con Salsiccia e Pomodorini)",
             "ingredients": [
-                "Olive oil",
-                "Onion (chopped)",
-                "Garlic (chopped)",
-                "Sausages (casings removed, crumbled)",
-                "Cherry tomatoes (halved)",
-                "Pasta cooking water",
-                "Parmesan cheese (grated)"
+                "30 ml olive oil",
+                "1 onion (chopped)",
+                "1 clove garlic (chopped)",
+                "200 gr sausages (casings removed, crumbled)",
+                "150 gr cherry tomatoes (halved)",
+                "50 ml pasta cooking water",
+                "50 gr Parmesan cheese (grated)"
             ],
             "steps": [
                 "In a large pan, heat olive oil and sauté chopped onion and garlic until translucent.",
@@ -76,25 +72,23 @@
                 "Toss the tagliatelle into the pan with the sausage and tomatoes, adding some pasta water to make a light sauce.",
                 "Sprinkle generously with grated Parmesan cheese before serving."
             ],
-            "link": {
-                "picture": "",
-                "author": "",
-                "notes": "",
-                "wine": "",
-                "nutritional_infos": ""
-            }
+            "link_picture": [""],
+            "author": ["Marco Mamprin"],
+            "notes": ["A hearty pasta dish with a rich tomato and sausage flavor."],
+            "wine": ["Pair with a Chianti or Sangiovese."],
+            "nutritional_infos": ["Calories: 500 per serving, Protein: 20g, Fat: 25g, Carbs: 50g"]
         },
         {
-            "name": "Spaghetti with Chili, Sardines, and Breadcrumbs",
+            "name": "Spaghetti with Sardines, Chili and Breadcrumbs (Spaghetti con Sarde, Peperoncino e Pangrattato)",
             "ingredients": [
-                "Olive oil",
-                "Garlic (chopped)",
-                "Breadcrumbs",
-                "Chili pepper (chopped or crushed)",
-                "Sardines (drained and broken into small pieces)",
-                "Oregano",
-                "Arugula",
-                "Salt and pepper"
+                "30 ml olive oil",
+                "1 clove garlic (chopped)",
+                "50 gr breadcrumbs",
+                "1 chili pepper (chopped or crushed)",
+                "100 gr sardines (drained and broken into small pieces)",
+                "5 gr oregano",
+                "50 gr arugula",
+                "Salt and pepper to taste"
             ],
             "steps": [
                 "In a pan, heat olive oil and sauté garlic. Add breadcrumbs and toast them until golden. Set aside on kitchen paper to drain.",
@@ -104,13 +98,11 @@
                 "Boil spaghetti until al dente, then drain and toss with the sardine sauce.",
                 "Top with arugula and the toasted breadcrumbs before serving."
             ],
-            "link": {
-                "picture": "",
-                "author": "",
-                "notes": "",
-                "wine": "",
-                "nutritional_infos": ""
-            }
+            "link_picture": [""],
+            "author": ["Marco Mamprin"],
+            "notes": ["A bold and flavorful dish with a spicy kick."],
+            "wine": ["Pair with a dry white wine like Vermentino."],
+            "nutritional_infos": ["Calories: 350 per serving, Protein: 18g, Fat: 12g, Carbs: 40g"]
         }
     ]
 }

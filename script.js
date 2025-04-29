@@ -81,7 +81,11 @@ document.addEventListener('DOMContentLoaded', () => {
                 const recipeData = {
                     name: recipe.textContent,
                     ingredients: recipe.dataset.ingredients ? recipe.dataset.ingredients.split(',') : [],
-                    steps: recipe.dataset.steps ? recipe.dataset.steps.split(',') : [] // Ensure steps are retrieved
+                    steps: recipe.dataset.steps ? JSON.parse(recipe.dataset.steps) : [],
+                    author: recipe.dataset.author ? recipe.dataset.author.split(',') : [],
+                    notes: recipe.dataset.notes ? recipe.dataset.notes.split(',') : [],
+                    wine: recipe.dataset.wine ? recipe.dataset.wine.split(',') : [],
+                    nutritional_infos: recipe.dataset.nutritional_infos ? recipe.dataset.nutritional_infos.split(',') : []
                 };
                 allRecipes.push(recipeData);
             });
@@ -99,7 +103,16 @@ document.addEventListener('DOMContentLoaded', () => {
 
         // Dynamically set the section title based on the filename
         const title = section.file.split('/').pop().replace('.json', '').replace(/_/g, ' ').replace(/\b\w/g, char => char.toUpperCase());
-        sectionElement.querySelector('h2').textContent = title;
+        const italianTitles = {
+            "main courses": "Primi Piatti",
+            "appetizers": "Antipasti",
+            "soups": "Zuppe",
+            "salads": "Insalate",
+            "sides": "Contorni",
+            "desserts": "Dolci",
+            "beverages": "Bevande"
+        };
+        sectionElement.querySelector('h2').textContent = `${title} (${italianTitles[title.toLowerCase()] || ''})`;
 
         fetch(section.file)
             .then(response => response.json())
@@ -112,15 +125,31 @@ document.addEventListener('DOMContentLoaded', () => {
 
                     data.recipes.forEach(recipe => {
                         const recipeItem = document.createElement('li');
+                        recipeItem.classList.add('recipe-item');
+
                         const recipeLink = document.createElement('a');
                         recipeLink.href = '#';
                         recipeLink.textContent = recipe.name;
                         recipeLink.addEventListener('click', () => {
                             showRecipeDetails(recipe);
                         });
+
                         recipeItem.appendChild(recipeLink);
+
+                        if (recipe.link_picture && recipe.link_picture[0]) {
+                            const recipeImage = document.createElement('img');
+                            recipeImage.src = recipe.link_picture[0];
+                            recipeImage.alt = `${recipe.name} photo`;
+                            recipeItem.appendChild(recipeImage);
+                        }
+
                         recipeItem.dataset.ingredients = recipe.ingredients.join(',');
-                        recipeItem.dataset.steps = recipe.steps.join(','); // Ensure steps are set
+                        recipeItem.dataset.steps = JSON.stringify(recipe.steps);
+                        recipeItem.dataset.author = recipe.author ? recipe.author.join(',') : '';
+                        recipeItem.dataset.notes = recipe.notes ? recipe.notes.join(',') : '';
+                        recipeItem.dataset.wine = recipe.wine ? recipe.wine.join(',') : '';
+                        recipeItem.dataset.nutritional_infos = recipe.nutritional_infos ? recipe.nutritional_infos.join(',') : '';
+
                         listElement.appendChild(recipeItem);
                     });
                 }
@@ -151,7 +180,34 @@ document.addEventListener('DOMContentLoaded', () => {
         recipeDetails.style.display = 'block';
         recipeName.textContent = recipe.name;
         recipeIngredients.innerHTML = recipe.ingredients.map(ingredient => `<li>${ingredient}</li>`).join('');
-        recipeSteps.innerHTML = recipe.steps.map(step => `<li>${step}</li>`).join(''); // Ensure no extra numbering
+        recipeSteps.innerHTML = recipe.steps.map(step => `<li>${step}</li>`).join('');
+
+        // Clear previous additional details
+        const additionalDetails = document.getElementById('recipe-additional-details');
+        additionalDetails.innerHTML = '';
+
+        if (recipe.link_picture && recipe.link_picture[0]) {
+            const recipeImage = document.createElement('img');
+            recipeImage.src = recipe.link_picture[0];
+            recipeImage.alt = `${recipe.name} photo`;
+            recipeImage.style.maxWidth = '300px';
+            recipeImage.style.marginBottom = '10px';
+            additionalDetails.appendChild(recipeImage);
+        }
+
+        // Add author, notes, wine, and nutritional information
+        if (recipe.author) {
+            additionalDetails.insertAdjacentHTML('beforeend', `<p><strong>Author:</strong> ${recipe.author.join(', ')}</p>`);
+        }
+        if (recipe.notes) {
+            additionalDetails.insertAdjacentHTML('beforeend', `<p><strong>Notes:</strong> ${recipe.notes.join(', ')}</p>`);
+        }
+        if (recipe.wine) {
+            additionalDetails.insertAdjacentHTML('beforeend', `<p><strong>Wine Pairing:</strong> ${recipe.wine.join(', ')}</p>`);
+        }
+        if (recipe.nutritional_infos) {
+            additionalDetails.insertAdjacentHTML('beforeend', `<p><strong>Nutritional Info:</strong> ${recipe.nutritional_infos.join(', ')}</p>`);
+        }
     }
 
     // Commented out translation functionality
