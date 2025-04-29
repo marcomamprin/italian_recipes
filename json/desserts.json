@@ -1,26 +1,274 @@
 {
     "recipes": [{
-        "name": "Tiramisu",
-        "ingredients": [
-            "6 large egg yolks",
-            "150 gr granulated sugar",
-            "250 gr mascarpone cheese",
-            "400 ml heavy whipping cream",
-            "2 packages ladyfingers (approximately 400 gr total)",
-            "350 ml strong brewed espresso or coffee, cooled",
-            "80 ml coffee-flavored liqueur (e.g., Kahlúa) or dark rum (optional)",
-            "Unsweetened cocoa powder, for dusting",
-            "30 gr semisweet chocolate, grated (optional)"
-        ],
-        "steps": [
-            "In a medium saucepan, whisk together the egg yolks and sugar over medium heat until the mixture is thick and pale. Remove from heat and allow to cool.",
-            "In a large bowl, combine mascarpone cheese with the cooled egg yolk mixture until smooth.",
-            "In a separate bowl, whip the heavy cream to stiff peaks. Gently fold the whipped cream into the mascarpone mixture until well combined.",
-            "In a shallow dish, combine the cooled espresso or coffee with the coffee-flavored liqueur or rum, if using.",
-            "Quickly dip each ladyfinger into the coffee mixture, ensuring they are soaked but not soggy. Arrange a layer of soaked ladyfingers in the bottom of a 20x30 cm dish.",
-            "Spread half of the mascarpone mixture over the ladyfingers. Repeat the process with another layer of soaked ladyfingers and the remaining mascarpone mixture.",
-            "Cover and refrigerate the tiramisu for at least 4 hours, preferably overnight, to allow the flavors to meld.",
-            "Before serving, dust the top with unsweetened cocoa powder and sprinkle with grated semisweet chocolate, if desired."
-        ]
-    }]
+            "name": "Tiramisu (Tiramisù)",
+            "ingredients": [
+                "6 large egg yolks",
+                "150 gr granulated sugar",
+                "250 gr mascarpone cheese",
+                "400 ml heavy whipping cream",
+                "2 packages ladyfingers (approximately 400 gr total)",
+                "350 ml strong brewed espresso or coffee, cooled",
+                "80 ml coffee-flavored liqueur (e.g., Kahlúa) or dark rum (optional)",
+                "Unsweetened cocoa powder, for dusting",
+                "30 gr semisweet chocolate, grated (optional)"
+            ],
+            "steps": [
+                "In a medium saucepan, whisk together the egg yolks and sugar over medium heat until the mixture is thick and pale. Remove from heat and allow to cool.",
+                "In a large bowl, combine mascarpone cheese with the cooled egg yolk mixture until smooth.",
+                "In a separate bowl, whip the heavy cream to stiff peaks. Gently fold the whipped cream into the mascarpone mixture until well combined.",
+                "In a shallow dish, combine the cooled espresso or coffee with the coffee-flavored liqueur or rum, if using.",
+                "Quickly dip each ladyfinger into the coffee mixture, ensuring they are soaked but not soggy. Arrange a layer of soaked ladyfingers in the bottom of a 20x30 cm dish.",
+                "Spread half of the mascarpone mixture over the ladyfingers. Repeat the process with another layer of soaked ladyfingers and the remaining mascarpone mixture.",
+                "Cover and refrigerate the tiramisu for at least 4 hours, preferably overnight, to allow the flavors to meld.",
+                "Before serving, dust the top with unsweetened cocoa powder and sprinkle with grated semisweet chocolate, if desired."
+            ],
+            "link_picture": [""],
+            "author": ["Marco Mamprin"],
+            "notes": ["A classic Italian dessert with layers of coffee-soaked ladyfingers and mascarpone cream."],
+            "wine": ["Pair with a sweet Marsala wine."],
+            "nutritional_infos": ["Calories: 450 per serving, Protein: 6g, Fat: 30g, Carbs: 40g"]
+        },
+        {
+            "name": "Chocolate Biscuits (Biscotti al Cioccolato)",
+            "ingredients": [
+                "140 g flour",
+                "100 g melted chocolate",
+                "80 g sugar",
+                "80 g butter",
+                "50 g icing sugar",
+                "50 g vanilla icing sugar",
+                "1 vanilla pod",
+                "1 egg yolk",
+                "salt"
+            ],
+            "steps": [
+                "Toast the almonds, peel them after cooling, and finely grind them. Set aside 60 g of butter in pieces and let it soften at room temperature.",
+                "Cut the chocolate into pieces, melt it, and let it cool slightly, stirring occasionally to prevent it from hardening.",
+                "Sift 120 g of flour into a bowl, add the ground almonds, sugar, a pinch of salt, and the seeds from the vanilla pod. Add the softened butter, egg yolk, and melted chocolate, then mix well until a soft dough forms.",
+                "Work the ingredients until you obtain a uniform dough. Spread it into a 1 cm thick layer and let it firm up in the refrigerator.",
+                "Butter and flour a baking sheet, then cut the dough into 5 cm squares. Bake at 190°C for 15 minutes. Let them cool, then dust with icing sugar and vanilla icing sugar before serving."
+            ],
+            "author": ["Marco Mamprin"],
+            "notes": ["Crunchy chocolate biscuits perfect for dipping in coffee or tea."],
+            "wine": ["Pair with a Vin Santo or dessert wine."],
+            "nutritional_infos": ["Calories: 150 per biscuit, Protein: 2g, Fat: 8g, Carbs: 18g"]
+        },
+        {
+            "name": "Sweet Salami (Salame Dolce)",
+            "ingredients": [
+                "300 g dry biscuits",
+                "150 g sugar",
+                "120 g butter",
+                "120 g cocoa powder",
+                "2 eggs",
+                "1 small glass of Rum",
+                "70 g ground almonds"
+            ],
+            "steps": [
+                "Crumble the biscuits finely and coarsely grind the almonds.",
+                "Cut the butter into pieces and let it soften at room temperature. Work it with a wooden spoon until it becomes a soft cream with the sugar.",
+                "Beat in one egg at a time, then add the cocoa powder, continuing to mix. Add the Rum and mix evenly with the crumbled biscuits and almonds.",
+                "Spread a sheet of aluminum foil, pour the mixture onto it, and shape it into a salami with your hands, keeping it compact. Wrap the ground almonds on another sheet of foil to prevent sticking.",
+                "Wrap the sweet salami in foil and chill in the refrigerator for 2 hours. Slice into approximately 2 cm thick slices and serve."
+            ],
+            "author": ["Marco Mamprin"],
+            "notes": ["A no-bake chocolate dessert shaped like a salami."],
+            "wine": ["Pair with a sweet red wine like Brachetto d'Acqui."],
+            "nutritional_infos": ["Calories: 300 per slice, Protein: 4g, Fat: 18g, Carbs: 30g"]
+        },
+        {
+            "name": "Chocolate Crêpes (Crêpes al Cioccolato)",
+            "ingredients": [
+                "120 g flour",
+                "2 eggs",
+                "250 ml milk",
+                "30 g sugar",
+                "30 g butter",
+                "150 g melted chocolate",
+                "4 tablespoons vanilla sugar",
+                "100 ml cream",
+                "1 small glass of Cognac"
+            ],
+            "steps": [
+                "Sift the flour into a bowl, add the milk, sugar, and eggs (all at room temperature). Whisk to eliminate lumps and homogenize the batter, then let it rest for 30 minutes.",
+                "Grease a non-stick pan with a small amount of melted butter, heat it, and pour in 1 ladle of batter. Cook for a few minutes, then flip the crêpe and cook for about 2 more minutes. Repeat to make about 7 crêpes.",
+                "Melt the chocolate in a double boiler with the cream, mixing continuously to make a soft sauce. Keep the sauce warm.",
+                "Lay the crêpes on a counter, lightly moisten with Cognac, spread with the chocolate cream, then fold them in half and again into a fan shape.",
+                "Arrange the crêpes on a serving plate, dust with vanilla sugar, and serve warm."
+            ],
+            "author": ["Marco Mamprin"],
+            "notes": ["Delicate crêpes filled with rich chocolate cream."],
+            "wine": ["Pair with a Moscato d'Asti."],
+            "nutritional_infos": ["Calories: 250 per crêpe, Protein: 5g, Fat: 12g, Carbs: 30g"]
+        },
+        {
+            "name": "Chocolate Soufflé (Soufflé al Cioccolato)",
+            "ingredients": [
+                "150 g melted chocolate",
+                "6 egg yolks",
+                "80 g sugar",
+                "30 g flour",
+                "3 eggs",
+                "1 vanilla pod",
+                "2 tablespoons vanilla sugar",
+                "30 g butter",
+                "300 ml milk"
+            ],
+            "steps": [
+                "Heat 300 ml of milk without boiling, and dissolve the sugar in it over low heat. Add the vanilla pod.",
+                "In another pan, heat 150 ml of the milk, add the chopped chocolate, and melt it over moderate heat, stirring constantly until fully melted.",
+                "Dilute the flour in the remaining cold milk using a whisk. Pour the cold milk into the chocolate mixture, add the sugared hot milk, stir, and heat again to make it homogeneous. Let it rest for 5 minutes.",
+                "Separate the egg whites from the yolks. Add one yolk at a time to the chocolate cream, then beat the egg whites until very stiff and gently fold them into the mixture to prevent them from collapsing.",
+                "Butter a mold and fill it two-thirds with the mixture. Run your finger along the top edge to create a small groove, then bake in a hot oven at 180°C for 20 minutes without opening the door. Dust with vanilla sugar and serve immediately before it deflates."
+            ],
+            "author": ["Marco Mamprin"],
+            "notes": ["A light and airy chocolate dessert best served immediately."],
+            "wine": ["Pair with a Ruby Port."],
+            "nutritional_infos": ["Calories: 200 per serving, Protein: 4g, Fat: 10g, Carbs: 25g"]
+        },
+        {
+            "name": "Truffles (Tartufi)",
+            "ingredients": [
+                "180 g melted chocolate",
+                "40 g butter",
+                "150 g sugar",
+                "4 tablespoons cocoa powder",
+                "100 ml cream",
+                "2 egg yolks"
+            ],
+            "steps": [
+                "Work the egg yolks with 100 g of sugar in a bowl until the mixture becomes soft and well combined, then beat vigorously.",
+                "Break the chocolate into pieces and melt it in a double boiler, mixing continuously.",
+                "Melt the butter in a double boiler, add the cream and 50 g of sugar, and continue stirring until you have a perfect mixture.",
+                "Sift 2 tablespoons of cocoa, add it to the egg yolks, sugar, cream, melted chocolate, and butter. Mix gently until you achieve a homogeneous mixture.",
+                "Take small portions of the mixture, form them into small balls with your hands, and roll the balls in the remaining cocoa. Let them rest on a plate with parchment paper before serving."
+            ],
+            "author": ["Marco Mamprin"],
+            "notes": ["Rich and decadent chocolate truffles."],
+            "wine": ["Pair with a Tawny Port or dessert wine."],
+            "nutritional_infos": ["Calories: 100 per truffle, Protein: 1g, Fat: 7g, Carbs: 8g"]
+        },
+        {
+            "name": "Chocolate Mold (Sformato al Cioccolato)",
+            "ingredients": [
+                "200 g melted chocolate",
+                "100 g butter",
+                "30 g sugar",
+                "3 egg yolks",
+                "30 g cocoa powder",
+                "100 ml cream",
+                "30 g milk chocolate"
+            ],
+            "steps": [
+                "Melt the chocolate in a double boiler, then cut 100 g of butter into pieces and mix it with the melted chocolate, working with a wooden spoon.",
+                "Whip the egg whites to stiff peaks and fold them into the mixture, stirring gently to avoid deflating them. Mix well to prevent lumps.",
+                "Grease a mold with a little butter, pour the mixture into it, and let it set in the refrigerator for 3 hours.",
+                "Whip 100 ml of cream with 2 tablespoons of sugar, grate the milk chocolate, and mix it into the cream.",
+                "Unmold the dessert, place it in the center, cover with the whipped cream, sprinkle with cocoa powder, and serve immediately with chocolate candies."
+            ],
+            "author": ["Marco Mamprin"],
+            "notes": ["A chilled chocolate dessert with a creamy texture."],
+            "wine": ["Pair with a sweet red wine like Lambrusco."],
+            "nutritional_infos": ["Calories: 350 per serving, Protein: 5g, Fat: 20g, Carbs: 35g"]
+        },
+        {
+            "name": "Cocoa Soufflé (Soufflé al Cacao)",
+            "ingredients": [
+                "25 g butter",
+                "50 g flour",
+                "100 g sugar",
+                "200 ml milk",
+                "125 g cocoa powder",
+                "3 eggs",
+                "25 g extra butter",
+                "1 egg yolk"
+            ],
+            "steps": [
+                "Melt 25 g of butter over low heat, gradually add 50 g of flour, stirring continuously. Mix in 100 g of sugar and dilute with 200 ml of hot milk.",
+                "Stir the mixture over heat until it boils for 5 minutes, mixing constantly.",
+                "Add 125 g of cocoa powder and 25 g of butter, always stirring to avoid lumps.",
+                "Let the mixture cool slightly, then add 3 egg yolks one at a time. Whip the egg whites to stiff peaks and fold them in gently.",
+                "Butter a soufflé mold, fill it two-thirds with the mixture, and bake in a hot oven for 30 minutes. When the soufflé is puffed and soft, dust with sugar and serve immediately."
+            ],
+            "author": ["Marco Mamprin"],
+            "notes": ["A cocoa-based soufflé with a rich chocolate flavor."],
+            "wine": ["Pair with a sweet sparkling wine like Asti Spumante."],
+            "nutritional_infos": ["Calories: 220 per serving, Protein: 5g, Fat: 12g, Carbs: 25g"]
+        },
+        {
+            "name": "Two-Tone Coffee Brick (Mattone Bicolore al Caffè)",
+            "ingredients": [
+                "250 g soft amaretti",
+                "80 g melted chocolate",
+                "30 g milk chocolate",
+                "1 tablespoon coffee",
+                "3 eggs",
+                "200 ml cream",
+                "40 g butter",
+                "2 tablespoons cocoa powder"
+            ],
+            "steps": [
+                "Break the chocolate into pieces and melt it in a double boiler with 20 g of butter. Heat the coffee and pour it into the chocolate, adding the egg yolks and mixing well.",
+                "Whip the egg whites until stiff and fold them into the cream, mixing gently to prevent them from deflating.",
+                "Finely crush the amaretti, add them to the whipped cream, and divide the mixture in half. Pour one half into a lightly buttered plum cake mold and place it in the freezer for about 30 minutes.",
+                "Pour the chocolate cream into the mold and return it to the freezer for another 30 minutes. Cover with the remaining cream, wrap well, and place the mold on an aluminum sheet, then return it to the freezer.",
+                "Transfer the dessert to the refrigerator 2 hours before serving. Turn it out, garnish with the melted milk chocolate, and dust with cocoa powder."
+            ],
+            "author": ["Marco Mamprin"],
+            "notes": ["A layered frozen dessert with coffee and chocolate flavors."],
+            "wine": ["Pair with an Espresso Martini."],
+            "nutritional_infos": ["Calories: 300 per slice, Protein: 4g, Fat: 15g, Carbs: 35g"]
+        },
+        {
+            "name": "Chocolate Plum Cake (Plum Cake al Cioccolato)",
+            "ingredients": [
+                "150 g sugar",
+                "150 g flour",
+                "170 g butter",
+                "50 g cocoa powder",
+                "50 g melted chocolate",
+                "50 g raisins",
+                "3 eggs",
+                "1 yeast packet",
+                "salt"
+            ],
+            "steps": [
+                "Soak the raisins in warm water and squeeze them dry. Work the egg yolks with the sugar using a wooden spoon until they become soft.",
+                "Melt 150 g of butter over low heat and pour it into the mixture. Sift the flour and yeast. Add the cocoa, raisins, flour, yeast, and a pinch of salt to the mixture, ensuring it forms a smooth consistency without lumps.",
+                "Whip the egg whites until stiff and gently fold them into the chocolate mixture.",
+                "Lightly butter a plum cake mold and pour in the mixture, tapping lightly on a surface to remove air bubbles. Bake in a very hot oven for 40 minutes, then serve cold."
+            ],
+            "author": ["Marco Mamprin"],
+            "notes": ["A moist chocolate cake with raisins and cocoa."],
+            "wine": ["Pair with a sweet red wine like Recioto della Valpolicella."],
+            "nutritional_infos": ["Calories: 400 per slice, Protein: 6g, Fat: 18g, Carbs: 50g"]
+        },
+        {
+            "name": "Passionate Kisses (Baci Appassionati)",
+            "ingredients": [
+                "100 g melted chocolate",
+                "150 g flour",
+                "150 g sugar",
+                "150 g butter",
+                "100 g cocoa powder",
+                "100 g almonds",
+                "100 g hazelnuts",
+                "3 tablespoons honey",
+                "2 eggs",
+                "2 tablespoons orange peel",
+                "zest of 1/2 lemon"
+            ],
+            "steps": [
+                "Finely grind the almonds and hazelnuts in a mixer until they become powdery.",
+                "Beat the eggs, lemon zest, and orange peel. Add the flour, sugar, cocoa, softened butter, and honey, mixing lightly until smooth.",
+                "Work the mixture carefully until it becomes soft and well-blended. Form small portions into bite-sized balls.",
+                "Line a baking sheet with parchment paper and arrange the balls on it. Bake in a hot oven for 20 minutes, then let them cool.",
+                "Melt the chocolate in a double boiler and dip the cooled balls into it, ensuring an even coating. Sprinkle lightly with the ground nuts to make them stick to the chocolate. Let them rest in the refrigerator for 1/2 hour before serving."
+            ],
+            "author": ["Marco Mamprin"],
+            "notes": ["Chocolate and nut-based treats with a hint of citrus."],
+            "wine": ["Pair with a sweet sparkling wine like Prosecco."],
+            "nutritional_infos": ["Calories: 120 per piece, Protein: 2g, Fat: 8g, Carbs: 12g"]
+        }
+    ]
 }

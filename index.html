@@ -6,38 +6,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Italian Recipes</title>
     <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Garamond:wght@400;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <header>
-        <h1>My Recipes</h1>
+        <h1>Tradizioni di Famiglia</h1>
+        <h2>Di padre in figlio</h2>
         <button id="dark-mode-toggle">Toggle Dark Mode</button>
     </header>
     <main>
+        <button id="randomize-button">Randomize Recipe</button>
         <div id="search-container">
             <input type="text" id="search-input" placeholder="Search recipes...">
-            <button id="search-button">Search</button>
+            <button id="reset-button">Reset</button>
         </div>
-        <!-- Commented out translation container -->
-        <!--
-        <div id="translation-container">
-            <select id="language-select">
-                <option value="en">English</option>
-                <option value="it">Italian</option>
-            </select>
-            <button id="translate-button">Translate</button>
-        </div>
-        -->
         <section id="recipe-list">
             <h2>Main Courses</h2>
-            <ul id="recipes">
-                <!-- Recipe links will be dynamically added here -->
+            <ul id="recipes" class="recipe-list">
+                <!-- Recipe links with photos will be dynamically added here -->
             </ul>
         </section>
         <section id="appetizers-list">
             <h2>Appetizers</h2>
-            <ul id="appetizers">
-                <!-- Appetizer links will be dynamically added here -->
+            <ul id="appetizers" class="recipe-list">
+                <!-- Appetizer links with photos will be dynamically added here -->
             </ul>
         </section>
         <section id="soups-list">
@@ -77,6 +70,8 @@
             <ul id="recipe-ingredients" style="list-style-type: disc; margin-left: 20px;"></ul>
             <p><strong>Steps:</strong></p>
             <ol id="recipe-steps"></ol>
+            <!-- Placeholders for additional details -->
+            <div id="recipe-additional-details"></div>
         </section>
     </main>
     <footer>

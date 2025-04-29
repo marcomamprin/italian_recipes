@@ -1,16 +1,16 @@
 {
     "recipes": [{
-        "name": "Strawberry, Goat Cheese, and Onion Salad",
+        "name": "Strawberry, Goat Cheese, and Onion Salad (Insalata di Fragole, Formaggio di Capra e Cipolla)",
         "ingredients": [
-            "Fresh strawberries (hulled and halved)",
-            "Goat cheese (crumbled)",
-            "Red onion (thinly sliced)",
-            "Mixed salad greens (e.g., arugula, spinach, or mesclun)",
-            "Balsamic vinegar",
-            "Olive oil",
-            "Honey",
+            "200 gr fresh strawberries (hulled and halved)",
+            "100 gr goat cheese (crumbled)",
+            "50 gr red onion (thinly sliced)",
+            "100 gr mixed salad greens (e.g., arugula, spinach, or mesclun)",
+            "30 ml balsamic vinegar",
+            "30 ml olive oil",
+            "10 ml honey",
             "Salt and pepper",
-            "Pecans or walnuts (optional, toasted)"
+            "50 gr pecans or walnuts (optional, toasted)"
         ],
         "steps": [
             "In a large bowl, combine mixed salad greens, halved strawberries, and thinly sliced red onion.",
@@ -19,6 +19,11 @@
             "Sprinkle crumbled goat cheese over the top.",
             "If using, add toasted pecans or walnuts for extra crunch.",
             "Serve immediately."
-        ]
+        ],
+        "link_picture": [""],
+        "author": ["Marco Mamprin"],
+        "notes": ["A refreshing and tangy salad perfect for summer."],
+        "wine": ["Pair with a Rosé or Sauvignon Blanc."],
+        "nutritional_infos": ["Calories: 180 per serving, Protein: 6g, Fat: 12g, Carbs: 14g"]
     }]
 }

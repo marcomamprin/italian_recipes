@@ -1,3 +1,78 @@
 {
-    "recipes": []
+    "recipes": [{
+            "name": "Bruschetta with Tomato and Basil (Bruschetta al Pomodoro e Basilico)",
+            "ingredients": [
+                "200 gr fresh tomatoes (diced)",
+                "10 gr fresh basil leaves (chopped)",
+                "1 clove garlic (minced)",
+                "2 tablespoons olive oil",
+                "6 baguette slices",
+                "Salt and pepper"
+            ],
+            "steps": [
+                "Preheat the oven to 200°C (400°F).",
+                "Brush baguette slices with olive oil and toast in the oven until golden.",
+                "In a bowl, mix diced tomatoes, chopped basil, minced garlic, olive oil, salt, and pepper.",
+                "Spoon the tomato mixture onto the toasted baguette slices.",
+                "Serve immediately."
+            ],
+            "link_picture": [""],
+            "author": ["Marco Mamprin"],
+            "notes": ["A classic Italian appetizer that's simple and delicious."],
+            "wine": ["Pair with a light Pinot Grigio."],
+            "nutritional_infos": ["Calories: 120 per serving, Protein: 2g, Fat: 5g, Carbs: 15g"]
+        },
+        {
+            "name": "Caprese Skewers (Spiedini Caprese)",
+            "ingredients": [
+                "200 gr cherry tomatoes",
+                "150 gr fresh mozzarella balls",
+                "10 gr fresh basil leaves",
+                "2 tablespoons balsamic glaze",
+                "6 skewers"
+            ],
+            "steps": [
+                "Thread cherry tomatoes, mozzarella balls, and basil leaves onto skewers.",
+                "Drizzle with balsamic glaze before serving.",
+                "Serve chilled or at room temperature."
+            ],
+            "link_picture": [""],
+            "author": ["Marco Mamprin"],
+            "notes": ["A quick and elegant appetizer."],
+            "wine": ["Pair with a Sauvignon Blanc."],
+            "nutritional_infos": ["Calories: 90 per skewer, Protein: 5g, Fat: 6g, Carbs: 3g"]
+        },
+        {
+            "name": "Salmon Pastry Shell (Guscio al Salmone)",
+            "ingredients": [
+                "300 gr flour",
+                "170 gr butter",
+                "300 gr fresh salmon",
+                "150 gr shrimp",
+                "10 gr chopped chives",
+                "2 tablespoons extra virgin olive oil",
+                "1 teaspoon ground coriander",
+                "1 egg",
+                "100 ml heavy cream",
+                "100 ml white wine",
+                "Salt",
+                "Pepper"
+            ],
+            "steps": [
+                "Work the flour with 150 g of softened, diced butter, a pinch of salt, and 2 tablespoons of water to form a dough. Knead until smooth and let rest for 30 minutes.",
+                "Clean the salmon by removing skin and bones, then cut it into small cubes.",
+                "Sauté the salmon in olive oil and white wine for 5 minutes, season with salt and pepper, then let it cool.",
+                "In a bowl, mix the salmon with the egg, cream, chopped chives, and ground coriander.",
+                "Add peeled and deveined shrimp to the mixture and stir well.",
+                "Grease a pie dish with the remaining 20 g of butter and line it with the prepared dough.",
+                "Fill the crust with the seafood mixture and bake in a preheated oven at 180°C for 40 minutes.",
+                "Serve hot."
+            ],
+            "link_picture": [""],
+            "author": ["Marco Mamprin"],
+            "notes": ["A savory seafood pastry perfect for special occasions."],
+            "wine": ["Pair with a dry white wine like Sauvignon Blanc."],
+            "nutritional_infos": ["Calories: 350 per serving, Protein: 20g, Fat: 18g, Carbs: 25g"]
+        }
+    ]
 }
