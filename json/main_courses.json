@@ -21,7 +21,7 @@
                 "Add fresh tarragon, stir well, and serve."
             ],
             "link_picture": ["photos/pasta_with_mushrooms_and_cream.jpg"],
-            "author": ["Marco Mamprin"],
+            "author": ["Gordon Ramsay"],
             "notes": ["A creamy and flavorful dish perfect for mushroom lovers."],
             "wine": ["Pair with a Chardonnay or Pinot Noir."],
             "nutritional_infos": ["Calories: 450 per serving, Protein: 12g, Fat: 25g, Carbs: 40g"]
@@ -47,7 +47,7 @@
                 "If needed, loosen the sauce with a bit of reserved pasta water. Serve warm."
             ],
             "link_picture": [""],
-            "author": ["Marco Mamprin"],
+            "author": ["Gordon Ramsay"],
             "notes": ["A creamy and savory pasta dish with a hint of sweetness from peas."],
             "wine": ["Pair with a Pinot Grigio."],
             "nutritional_infos": ["Calories: 400 per serving, Protein: 15g, Fat: 20g, Carbs: 35g"]
@@ -73,7 +73,7 @@
                 "Sprinkle generously with grated Parmesan cheese before serving."
             ],
             "link_picture": ["photos/tagliatelle_with_sausage_and_cherry_tomatoes.jpg"],
-            "author": ["Marco Mamprin"],
+            "author": ["Gordon Ramsay"],
             "notes": ["A hearty pasta dish with a rich tomato and sausage flavor."],
             "wine": ["Pair with a Chianti or Sangiovese."],
             "nutritional_infos": ["Calories: 500 per serving, Protein: 20g, Fat: 25g, Carbs: 50g"]
@@ -98,8 +98,8 @@
                 "Boil spaghetti until al dente, then drain and toss with the sardine sauce.",
                 "Top with arugula and the toasted breadcrumbs before serving."
             ],
-            "link_picture": [""],
-            "author": ["Marco Mamprin"],
+            "link_picture": ["photos/spaghetti_with_sardines_chili_and_breadcrumbs.jpg"],
+            "author": ["Gordon Ramsay"],
             "notes": ["A bold and flavorful dish with a spicy kick."],
             "wine": ["Pair with a dry white wine like Vermentino."],
             "nutritional_infos": ["Calories: 350 per serving, Protein: 18g, Fat: 12g, Carbs: 40g"]
