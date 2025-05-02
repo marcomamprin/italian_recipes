@@ -73,6 +73,43 @@
             "notes": ["A savory seafood pastry perfect for special occasions."],
             "wine": ["Pair with a dry white wine like Sauvignon Blanc."],
             "nutritional_infos": ["Calories: 350 per serving, Protein: 20g, Fat: 18g, Carbs: 25g"]
+        },
+        {
+            "name": "Spicy Tuna Fish Cakes",
+            "ingredients": [
+                "1 can of tuna (drained)",
+                "Water chestnuts, finely chopped",
+                "1 small piece of fresh ginger, grated",
+                "2 spring onions, finely sliced",
+                "A handful of fresh coriander, chopped",
+                "1 red chili (seeds removed, finely chopped)",
+                "2 kaffir lime leaves, finely chopped",
+                "Salt and pepper, to taste",
+                "1 tablespoon fish sauce",
+                "2 eggs, beaten",
+                "Oil for frying",
+                "Pinch of sugar [sauce]",
+                "2 tablespoons fish sauce [sauce]",
+                "1 tablespoon rice wine vinegar [sauce]",
+                "Juice of 1 fresh lemon [sauce]",
+                "A handful of fresh coriander, chopped [sauce]"
+            ],
+            "steps": [
+                "In a large bowl, mix the tuna, chopped water chestnuts, grated ginger, spring onions, coriander, chili, and kaffir lime leaves.",
+                "Season with salt, pepper, and fish sauce.",
+                "Beat the two eggs in a separate bowl, then add them to the mixture and mix well until it holds together.",
+                "Shape the mixture into small, flat cakes.",
+                "Heat oil in a frying pan over medium heat.",
+                "Fry the fish cakes for 2–3 minutes on each side, until golden and crispy.",
+                "In a small bowl, mix sugar, fish sauce, rice wine vinegar, lemon juice, and chopped coriander until the sugar dissolves.",
+                "Serve the fish cakes hot with the dipping sauce on the side."
+            ],
+            "link_picture": [""],
+            "author": ["Gordon Ramsay"],
+            "notes": ["Crispy, flavorful fish cakes with a tangy dipping sauce."],
+            "wine": ["Pair with a dry Riesling or crisp white wine."],
+            "nutritional_infos": ["Calories: ~180 per cake (approx.), Protein: 15g, Fat: 10g, Carbs: 6g"],
+            "course": "Appetizer"
         }
     ]
 }
