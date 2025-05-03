@@ -110,6 +110,41 @@
             "wine": ["Pair with a dry Riesling or crisp white wine."],
             "nutritional_infos": ["Calories: ~180 per cake (approx.), Protein: 15g, Fat: 10g, Carbs: 6g"],
             "course": "Appetizer"
+        },
+        {
+            "name": "Meatballs alla Nonna",
+            "ingredients": [
+                "1 tin tomato puree (approx. 400g / 14oz)",
+                "2 tins water (approx. 800ml / 27oz, using the empty tomato puree tin as a measure)",
+                "1 tsp salt (for the sauce)",
+                "1/2 tsp pepper (for the sauce)",
+                "2 tbsp oil (e.g., olive oil)",
+                "2 cloves garlic (minced or crushed, for the sauce)",
+                "500g (1.1 lbs) mince (e.g., beef or a beef-pork mix)",
+                "2 large eggs",
+                "2 tbsp parsley (chopped)",
+                "1/4 tsp nutmeg",
+                "50g (1.8oz) parmesan cheese (grated)",
+                "100g (3.5oz) bread crumbs"
+            ],
+            "steps": [
+                "Combine 1 tin tomato puree and 2 tins water.",
+                "Add salt, pepper, oil, and garlic. Wait to boil.",
+                "In a separate bowl, mix mince with salt and pepper.",
+                "Add 2 eggs to the mince mixture.",
+                "Add parsley and garlic to the mince mixture.",
+                "Add nutmeg to the mince mixture.",
+                "Mix well.",
+                "Add parmesan cheese and mix.",
+                "Add bread crumbs and mix.",
+                "Form small balls and add to boiling sauce."
+            ],
+            "link_picture": [""],
+            "author": ["Nonna Antonia"],
+            "notes": [""],
+            "wine": [""],
+            "nutritional_infos": [""]
         }
+
     ]
 }
