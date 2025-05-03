@@ -1,5 +1,34 @@
 {
     "recipes": [{
+            "name": "Nonna's Crostoli",
+            "ingredients": [
+                "1 glass semi-sweet white wine",
+                "60g sugar",
+                "40g butter",
+                "1 egg",
+                "1 egg yolk",
+                "Pinch of salt",
+                "250g self-raising flour",
+                "250g all-purpose flour",
+                "1 tsp vanilla essence"
+            ],
+            "steps": [
+                "Mix eggs, sugar, salt, and wine in a bowl.",
+                "Add butter and vanilla essence to the mixture.",
+                "Stir until the sugar is fully dissolved.",
+                "Add self-raising flour and all-purpose flour, mixing to form a soft dough. Use plenty of flour and fold it into the dough.",
+                "Ensure the dough remains moist.",
+                "Cut the dough into pieces and roll out thinly using a pasta machine or rolling pin, adding flour as needed to prevent sticking. Roll each piece up to 3 times to achieve a thin, even thickness.",
+                "Cut the rolled dough into half portions and roll again if needed to ensure thinness.",
+                "Heat oil in a deep pan to medium heat (around 350°F/175°C, or until a small piece of dough sizzles when dropped in). Fry the dough pieces until golden and crispy."
+            ],
+            "link_picture": [""],
+            "author": ["Nonna Antonia"],
+            "notes": [""],
+            "wine": [""],
+            "nutritional_infos": [""]
+        },
+        {
             "name": "Tiramisu (Tiramisù)",
             "ingredients": [
                 "6 large egg yolks",
